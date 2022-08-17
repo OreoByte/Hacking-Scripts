@@ -2,6 +2,8 @@ python -c 'import pty; pty.spawn("/bin/bash")'
 
 python3 -c 'import pty; pty.spawn("/bin/bash")'
 
+script -q /dev/null -c /bin/bash
+
 **********************************************
 
 ESCAPING RBASH
